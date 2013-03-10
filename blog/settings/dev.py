@@ -6,7 +6,7 @@ xampp_socket = '/opt/lampp/var/mysql/mysql.sock'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'blog',
         'USER': 'blog',
         'PASSWORD': 'blog',
